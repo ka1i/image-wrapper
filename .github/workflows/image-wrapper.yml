@@ -26,6 +26,8 @@ jobs:
         run: |
           IFS=$'\n\n' && for img in $(cat images.txt);do echo $img | awk '{print $1}'| xargs -I {} docker pull {};done
           IFS=$'\n\n' && for img in $(cat images.txt);do echo $img | awk '{print $1}' | awk -F/ '{print $NF}' | xargs -I {} docker tag $(echo $img | awk '{print $1}') ka1i137/$(echo $img | awk '{print $2}')-{} ;done
+        with:
+          platforms: linux/arm64
       - name: Show All Images
         run: |
           docker images
@@ -35,3 +37,5 @@ jobs:
       - name: Push Images
         run: |
           for img in $(docker images| grep ka1i137 | awk -v OFS=':' '{print $1,$2}');do docker push $img ;done
+        with:
+          platforms: linux/arm64a
