@@ -25,3 +25,8 @@ kubesphere/kube-state-metrics:v2.5.0 ks
 prom/node-exporter:v1.3.1 ks
 kubesphere/kubectl:v1.22.0 ks
 kubesphere/prometheus-config-reloader:v0.55.1 ks
+kubesphere/ks-installer:v3.4.1 ks
+kubesphere/ks-apiserver:v3.4.1 ks
+kubesphere/ks-console:v3.4.1 ks
+kubesphere/ks-controller-manager:v3.4.1 ks
+kubesphere/kube-state-metrics:v2.6.0 ks
