@@ -3,3 +3,4 @@ prom/alertmanager:v0.23.0 ks
 kubesphere/notification-manager-operator:v2.3.0 ks
 kubesphere/notification-manager:v2.3.0 ks
 kubesphere/notification-tenant-sidecar:v3.2.0 ks
+prom/prometheus:v2.39.1 ks
