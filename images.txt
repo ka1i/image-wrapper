@@ -1,1 +1,5 @@
 kubesphere/tower:v0.2.1 ks
+prom/alertmanager:v0.23.0
+kubesphere/notification-manager-operator:v2.3.0
+kubesphere/notification-manager:v2.3.0
+kubesphere/notification-tenant-sidecar:v3.2.0
