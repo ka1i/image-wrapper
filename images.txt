@@ -17,3 +17,9 @@ haproxy:2.0.25-alpine ks
 alpine:3.14 ks
 osixia/openldap:1.3.0 ks
 kubesphere/netshoot:v1.0 ks
+csiplugin/snapshot-controller:v4.0.0 ks
+mirrorgooglecontainers/defaultbackend-amd64:1.4 ks
+kubesphere/prometheus-operator:v0.55.1 ks
+kubesphere/kube-rbac-proxy:v0.11.0 ks
+kubesphere/kube-state-metrics:v2.5.0 ks
+prom/node-exporter:v1.3.1 ks
