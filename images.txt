@@ -24,3 +24,4 @@ kubesphere/kube-rbac-proxy:v0.11.0 ks
 kubesphere/kube-state-metrics:v2.5.0 ks
 prom/node-exporter:v1.3.1 ks
 kubesphere/kubectl:v1.22.0 ks
+kubesphere/prometheus-config-reloader:v0.55.1 ks
