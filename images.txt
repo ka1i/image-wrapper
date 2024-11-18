@@ -5,3 +5,4 @@ kubesphere/notification-manager:v2.3.0 ks
 kubesphere/notification-tenant-sidecar:v3.2.0 ks
 prom/prometheus:v2.39.1 ks
 kubesphere/metrics-server:v0.4.2 ks
+registry.k8s.io/ingress-nginx/controller:v1.6.3 k8s
