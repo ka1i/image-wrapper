@@ -6,3 +6,4 @@ kubesphere/notification-tenant-sidecar:v3.2.0 ks
 prom/prometheus:v2.39.1 ks
 kubesphere/metrics-server:v0.4.2 ks
 registry.k8s.io/ingress-nginx/controller:v1.6.3 k8s-ingress-nginx
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343 k8s-ingress-nginx
