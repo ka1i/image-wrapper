@@ -1,9 +1,1 @@
-kubesphere/tower:v0.2.1 ks
-prom/alertmanager:v0.23.0 ks
-kubesphere/notification-manager-operator:v2.3.0 ks
-kubesphere/notification-manager:v2.3.0 ks
-kubesphere/notification-tenant-sidecar:v3.2.0 ks
-prom/prometheus:v2.39.1 ks
-kubesphere/metrics-server:v0.4.2 ks
-registry.k8s.io/ingress-nginx/controller:v1.6.3 k8s-ingress-nginx
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343 k8s-ingress-nginx
+nvcr.io/nvidia/l4t-cuda:12.6.3-runtime nvcr
