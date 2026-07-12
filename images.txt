@@ -1,2 +1,1 @@
-nvcr.io/nvidia/l4t-jetpack:r36.4.0 nvcr
 gcr.io/cadvisor/cadvisor:v0.52.1 gcr
